@@ -1,0 +1,271 @@
+*{
+  margin : 0;
+  padding : 0;
+  font-family : 'poppins',sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background : #000;
+  color : #fff;
+}
+.header{
+    width : 100%;
+    height : 100vh;
+    background-image : linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/header-image.png);
+    background-size : cover;
+    background-position: center;
+    padding : 10px 8%;
+    position: relative;
+  }
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo{
+  width : 150px;
+  cursor : pointer;
+}
+nav button{
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding:7px 20px;
+  font-size: 12px;
+  border-radius: 4px; 
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.language-btn{
+  display:inline-flex;
+  align-items: center;
+  background: transparent;
+  border:1px solid #fff;
+  padding: 7px 10px;
+}
+
+.getstar{
+  padding: 10px 10px 10px;
+  display:inline-flex;
+  align-items: center;
+  background: transparent;
+  border:1px solid #fff;
+}
+
+.language-btn img{
+  width:10px;
+  margin-left: 10px;
+}
+
+.header-content{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+  margin-top:100px;
+}
+
+.header-content h1{
+  font-size: 3rem;
+  line-height: 70px;
+  font-weight: 700;
+  max-width: 650px;
+}
+
+.header-content h3{
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.email-signup{
+   background: #fff;
+   border-radius:4px;
+   display: flex;
+   align-items: center;
+   margin-top: 30px;
+   overflow: hidden;
+}
+
+.email-signup input{
+   flex: 1;
+   border: 0;
+   outline: 0;
+   margin-left: 20px;
+}
+
+.email-signup button{
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+.features{
+  padding: 10px 8%;
+  font-size: 22px;;
+}
+
+.row{
+  display: flex;
+  width:100%;
+  align-items:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+.tv{
+  -webkit-flex-basis: 50%;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  padding: 0;
+  z-index: 1;
+}
+.tv2,div{
+  position: relative;
+  display: block;
+}
+.tv3{
+  width:100%;
+}
+img{
+  border:0;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.tv4{
+  z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+div{
+  display:block;
+}
+.default-ltr-cache-aknuz3{
+  z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 1);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    min-width: 15rem;
+    padding: 0.25rem 0.65rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 2em 0 rgba(0, 0, 0, 1);
+    border-radius: 0.75rem;
+    z-index: 1;
+}
+.default-ltr-cache-1cn8kex{
+  margin: 0 1rem 0 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.default-ltr-cache-1h4wmqx {
+  height: 3rem;
+}
+.default-ltr-cache-tcf860 {
+  text-align: left;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  margin: 0.3rem 0;
+}
+.default-ltr-cache-1265pqp {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.default-ltr-cache-dlzs1w {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #0071eb;
+}
+.default-ltr-cache-93n3kh {
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgba(0, 0, 0, 1);
+  outline-offset: -2px;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: '';
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.default-ltr-cache-1yz1b0z {
+  width: 100%;
+  height: 0.5rem;
+  position: absolute;
+  bottom: -0.5rem;
+  background-color: rgb(35,35,35);
+}
+.text-col{
+  flex-basis: 50%;
+  margin-bottom:20px;
+  padding:10px 10px 10px 10px;
+}
+.text-col h1,p{
+  padding:10px 10px 10px 10px;
+}
+.img-col{
+  flex-basis:50%;
+  margin-bottom:20px;
+}
+.img-col img{
+  display:block;
+  width:90%;
+  margin :auto;
+}
+
+
+
+
+
+
+
+
+
